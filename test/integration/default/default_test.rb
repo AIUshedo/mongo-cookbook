@@ -14,7 +14,7 @@ end
 
 # This is an example test, replace it with your own test.
 describe port('0.0.0.0', 27017) do
-  it { should be_listening }
+  it { should be_listening}
 end
 
 describe package("mongodb-org") do
